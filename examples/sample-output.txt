@@ -1,0 +1,21 @@
+PWTP reference implementation - sample output
+input: examples/sample-input.csv  (8 pocket-bearing conformers + 12 pocketless = 20 total)
+
+ residue  occupancy   quality     PWTP
+      41     0.1579    0.8894   0.1404
+      42     0.1579    0.8894   0.1404
+      43     0.1579    0.8894   0.1404
+      44     0.1579    0.8894   0.1404
+      45     0.1053    0.9355   0.0985
+      12     0.1053    0.0007   0.0001
+      13     0.1053    0.0007   0.0001
+      14     0.1053    0.0007   0.0001
+      80     0.1579    0.0000   0.0000
+      81     0.1579    0.0000   0.0000
+      82     0.1579    0.0000   0.0000
+
+target-level PWTP (top-5 residues): 0.132
+
+Read occupancy and quality as a pair: residues 41-44 line a high-quality
+pocket in a minority of conformers, residues 80-82 line a poor pocket more
+often. The product alone does not distinguish those two situations.

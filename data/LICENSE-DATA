@@ -1,0 +1,13 @@
+The curated data files in this directory are released under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Sambhaji Balaso Thakar and Pradnya Namdev Ghorpade.
+
+Every row of the curated tables records a measurement published by another
+group, together with the PMID or DOI of its source. No new experimental data
+were generated in this work. Attribution under this licence does not replace
+citation of those primary sources.
+
+The code in this repository is released separately under the MIT licence; see
+LICENSE in the repository root.

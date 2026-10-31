@@ -1,0 +1,19 @@
+"Table 3 — every affinity we could find for a small molecule against a disordered region, ordered by how site-dependent the binding is."
+Target,Ligand,Affinity,Method,Binding abolished by mutating the mapped residues?,Region character
+p27Kip1,SJ710,4.8 ± 1.3 mM,NMR titration,yes (both Trp),genuinely disordered
+p27Kip1,SJ403,2.2 ± 0.3 mM,NMR titration,yes (both Trp),genuinely disordered
+p27Kip1,SJ749,392 ± 128 µM (CSP); 291 ± 76 µM (intensity),NMR titration,yes,genuinely disordered
+p27Kip1,SJ755,338 ± 50 µM,NMR titration,yes,genuinely disordered
+Myc bHLHZip (monomeric),34RH,3.9 ± 1.3 µM (excess); 5.9 ± 0.8 µM (equimolar),"Tyr402 fluorescence quenching, Langmuir fit; compound pKa and DLS reported","yes — A401E and E410N each abolish detectable binding, but see the readout caveat below","genuinely disordered, no CD change on binding"
+Myc peptide YILSVQAEEQK (11-mer),34RH,11.5 ± 1.2 µM,"same readout, capped synthetic peptide",n/a (isolated site),random coil by CD; <0.7 kcal mol⁻¹ from the full domain
+MaxRH (8-residue Myc site ported into Max),34RH,23.4 ± 1.1 µM; 14.9 ± 1.9 µM (Y115F/Y123F); 9.1 ± 3.9 µM (pH 6),same readout,"yes — N78E abolishes binding; native P22 Max, P21 Max and P22 Max at pH 6 are all negative","genuinely disordered, monomeric by CD, no CD change on binding"
+p27Kip1,SJ757,140 ± 80 µM (CSP); 57 ± 19 µM (intensity),NMR titration,no — binds the W60A-W76A double mutant,genuinely disordered
+AR Tau-5,EPI-002,5.24 mM,simulated — compare the measured 62.8 µM below,not tested,genuinely disordered
+AR Tau-5,EPI-7170,1.92 mM,simulated — no measured counterpart,not tested,genuinely disordered
+AR Tau-5 dimerisation,+ compound 1aa,0.30 ± 0.03 mM,simulated,n/a (dimerisation),genuinely disordered
+MDM2 N-terminal lid,AM-7209,"5 ± 1 pM (apparent Kd, lid present) [51]",ITC,"yes (I19G, ~1000-fold)",disordered lid abutting a folded core
+MYC C203,KL2-236 / KL4-219A,no equilibrium constant exists — covalent; cellular degradation EC50 9.3 µM / 1.7 µM,"cellular degradation, time-dependent",double mutant C203A/D205A abolishes the effect,genuinely disordered
+AR-NTD-AF1,K53,24.1 µM (2.41 × 10⁻⁵ M),"SPR, steady-state fit, immobilised AF1",not tested (no mutagenesis reported),genuinely disordered
+AR-NTD-AF1,EPI-002,62.8 µM (6.28 × 10⁻⁵ M),"SPR, same assay",not tested,genuinely disordered
+AR-LBD (control),enzalutamide,no dose-dependent response on AF1,"SPR, same assay",n/a,folded LBD-directed comparator
+NS5A-D2D3,5-fluoroindole,260 ± 110 µM,"¹⁹F relaxation global fit (R₂ + R₁ + CSP + DOSY, one-site model)",not tested (no mutagenesis),genuinely disordered

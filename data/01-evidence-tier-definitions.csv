@@ -1,0 +1,4 @@
+Tier,Definition,Usable as
+A,"Residue-level binding information from NMR (chemical-shift perturbation, HSQC titration, paramagnetic relaxation enhancement) or from site-directed mutagenesis abolishing binding",per-residue labels
+B,"Direct binding to the disordered region established biophysically (ITC, SPR, microscale thermophoresis, fluorescence, backscattering interferometry) with no residue-level map",target-level labels only
+C,"Cellular or functional activity attributed to the protein, with no direct evidence of binding to the disordered region",excluded from all labels; retained as a documented watch list

@@ -1,0 +1,7 @@
+Table 2 — tier counts.
+,Count,Comment
+Tier A targets,4,"MDM2 lid, p27Kip1, MYC C203 (covalent; see the note below Table 2), TREX1 α7–α8 loop (crystallographic)"
+Tier B targets,"7 targets, 8 graded pairs","AR Tau-5 (EPI series) and AR-NTD-AF1 (K53, a separate pair on the same target), α-synuclein, c-Myc:Max (the Max-dimerisation entry, distinct from the covalent C203 entry), p53 TAD, NUPR1, Aβ42, NS5A-D2D3"
+Tier C / excluded,≥3 documented,"EWS-FLI1, FOXO4-DRI (peptide), plus the ChEMBL watch list of §3.2"
+Entries demoted by the grading rules,3,"AR Tau-5 (A→B, no pH control, no mutagenesis, CSPs ""relatively small""); Aβ42 set aside as non-specific; p27Kip1 / SJ757 (A→B at the compound level — it survives the W60A-W76A double mutant, so it has neither mutagenesis confirmation nor a pH control, even though its target stays Tier A on the other compounds)"
+Target–compound pairs graded,20,"the unit that matters, since tier and mechanism are both properties of the pair (§3.3)"
